@@ -4,7 +4,7 @@
 @import url("https://zuzumi-f.github.io/classic-discord-status/2016-status.css");
 
 :root {
-    --the-borders: 3px solid #da4a60;
+    --the-borders: 3px solid #188, 44%, 82%;
     --drag-background: linear-gradient(#e8c4d3, #e39ba7);
     --radius-theme: 18px;
 }
@@ -143,8 +143,8 @@
 
 /* Selection text */
 ::selection {
-    background-color: #C7BAD9; /* The blue colours thing */
-    color: #F1F5F6; /*text colours*/
+    background-color: #e2ece9; /* The blue colours thing */
+    color: #bee1e6; /*text colours*/
 }
 
 /* PNG avatars background */
@@ -154,7 +154,7 @@
 
 /* Background */
 div#app-mount.appMount-2yBXZl {
-    background-image: linear-gradient(to left, #4BB4E0, #58B2DB, #CCB0CF, #DAA3C0, #DD9FBD, #4BB4E0, #58B2DB, #CCB0CF 104.2%);
+    background-image: linear-gradient(to left, #fff1e6, #fde2e4, #fad2e1, #e2ece9, #bee1e6, #f0efeb, #dfe7fd, #cddafd 104.2%);
     animation: gradient-border 8s linear infinite;
     background-size: 400% 100%;
 }
